@@ -1,0 +1,8 @@
+html
+    head
+        title Thong bao
+    body
+        if(type == "error")
+            h3(style="color:red") #{message}
+        else
+            h3 Khoa hoc moi, ten: #{khoaHoc.ten}, chu thich: #{khoaHoc.chu_thich} da duoc them!
